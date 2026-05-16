@@ -1,0 +1,57 @@
+# =========================
+# Secrets & Environment
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+
+# =========================
+# AI Context / Memory Files
+# =========================
+memory.md
+claude.md
+context.md
+MASTER_CONTEXT_PRIVATE.md
+chat_logs/
+exports/
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Local Databases
+# =========================
+*.sqlite
+*.db
