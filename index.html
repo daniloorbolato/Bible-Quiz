@@ -568,6 +568,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('custom-input').addEventListener('keydown', e => { if (e.key === 'Enter' && !document.getElementById('start-btn').disabled) startQuiz(); });
   document.getElementById('fill-in').addEventListener('keydown', e => { if (e.key === 'Enter') submitFill(); });
   applyUI();
+  selectLang('en');
 });
 </script>
 </body>
