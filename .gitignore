@@ -11,6 +11,24 @@
 *.csr
 
 # =========================
+# Credentials
+# =========================
+credentials.json
+service-account.json
+serviceAccountKey.json
+secrets.json
+auth.json
+tokens.json
+session.json
+cookies.txt
+
+# =========================
+# Cloudflare / Wrangler
+# =========================
+.wrangler/
+.dev.vars
+
+# =========================
 # AI Context / Memory Files
 # =========================
 memory.md
